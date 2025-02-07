@@ -1,0 +1,24 @@
+/* Colors  */
+
+/*
+60% of #c85be7 - Primary 
+30% of #e75bc0 - Secondary
+10% of #825be7 - Accent 
+*/
+
+:root {
+
+/* Var(--primaryColor) !important; */
+--primarycolor: #c85be7;
+
+/* Var(--secondaryColor) !important; */
+--secondarycolor: #e75bc0;
+
+/* Var(--accesntColor) !important; */
+--accentcolor: #825be7;
+
+
+
+
+
+}
