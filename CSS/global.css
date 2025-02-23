@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+
+
 /* Colors */
 
 /*
@@ -8,14 +14,18 @@
 
 :root {
 
-    /* Var(--primaryColor) !important; */
+    /* var(--primaryColor) !important; */
     --primaryColor: #c85be7; 
 
-    /* Var(--secondaryColor) !important; */
+    /* var(--secondaryColor) !important; */
     --secondaryColor: #e75bc0; 
 
-    /* Var(--asscentColor) !important; */
+    /* var(--asscentColor) !important; */
     --asscentColor: #825be7; 
+
+     /* var(--fontFamily) !important; */
+     --fontFmaily: "Playfair Display", serif;
+
 
 
 }
