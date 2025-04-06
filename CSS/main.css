@@ -37,6 +37,10 @@ blackquote cite {
     color: var(--asscentColor) !important;
     font-size: 14px;
     display: block;
-    
+    margin-top: 5px;
 
+}
+
+blockquote cite::before {
+    content: "\2014 \2009";
 }
