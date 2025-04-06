@@ -47,4 +47,6 @@ margin-top: -5px;
    margin-top: 15px;
    border: 10px solid var(--asscentColor) !important; 
    border-radius: 50%;
+   clip-path: circle(50% at 50% 50%);
+
 }
