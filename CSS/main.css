@@ -11,3 +11,32 @@ h1, h2 {
     padding: 40px;
     color: white
 }
+
+blockquote { 
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0.25em 0px;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: var(--asscentColor) !important;
+}
+
+blockqute::before {
+    display: block;
+    padding-left: 10px;
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: var(--asscentColor) !important;
+    content:"\201c";
+}
+blackquote cite {
+    color: var(--asscentColor) !important;
+    font-size: 14px;
+    display: block;
+    
+
+}
