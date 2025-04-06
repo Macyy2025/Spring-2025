@@ -25,12 +25,16 @@ p {
 
  }
 
+ .blinn-fa-icon a {
+   color:  #ffffff !important
+   
+ }
 
 
  #custom-clip-path {
 Width: 100%;
 height: 200%; 
 background-color: var(--secondaryColor) !important;
-clip-path: polygon(0 0, 100% 0, 71% 100%, 0 100%);
+clip-path: polygon(0 0, 100% 0, 74% 58%, 0 58%);
 
  }
