@@ -5,10 +5,9 @@ p {
     font-family: var(--fontFamily) !important;
 }
 
-.blinn-fa-icon {
+.blinn-fa-icon a {
     font-size: 60px;
-    color: #ffffff;
- }
+    color: #ffffff; !important;
 
  .blinn-fa-container {
     background-color: var(--secondaryColor) !important;
