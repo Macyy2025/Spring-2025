@@ -4,10 +4,19 @@
 p {
     font-family: var(--fontFamily) !important;
 }
+ .blinn-fa-icon {
+   font-size: 60px;
+   color: white;
 
-.blinn-fa-icon a {
-    font-size: 60px;
-    color: #ffffff; !important;
+ }
+
+
+
+
+.blinn-fa-icon a { 
+   
+    color:  #ffffff
+}
 
  .blinn-fa-container {
     background-color: var(--secondaryColor) !important;
@@ -25,7 +34,7 @@ p {
  }
 
 .blinn-fa-container a {
-   color:  #ffffff !important;
+   color:  #ffffff;
    
  }
 
