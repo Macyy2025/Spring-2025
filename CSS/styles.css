@@ -11,15 +11,12 @@ p {
  }
 
 
-
-
 .blinn-fa-icon a { 
-   
     color:  #ffffff
 }
 
  .blinn-fa-container {
-    background-color: var(--secondaryColor) !important;
+    background-color:     color: var(--asscentColor) !important;
     padding: 50px;
  }
 
