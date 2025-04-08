@@ -35,8 +35,7 @@ p {
 Width: 100%;
 height: 280%; 
 background-color: var(--secondaryColor) !important;
-clip-path: polygon(0 0, 100% 0%, 57% 100%, 0% 100%);
-
+clip-path: polygon(0 0, 100% 0%, 35% 39%, 0% 100%);
 position: relative;
 margin-top: -5px;
 
