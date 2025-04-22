@@ -26,55 +26,52 @@
 
     <main>
       <!-- Begin Form-->
-      <dic class="web-form">
+      <div class="web-form">
         <form>
-            <div class="row">
-                <!-- First name -->
-          <div>
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name" name="firstName" />
-          </div>
-
-                 <!-- last name -->
-                 <div>
-                    <label for="last-name">Last Name</label>
-                    <input type="text" id="last-name" name="last" />
-                  </div>
-
-                  <!-- Age - number -->
-                   <div>
-
-                <label for="age">Age</label>
-                <input type="number" name="age" id="age" min="18" max="120"/>
+          <div class="row">
+            <!-- First name -->
+            <div>
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="firstName" />
             </div>
 
-        <!-- Email - email -->
+            <!-- last name -->
+            <div>
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last" />
+            </div>
 
-        <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" />
-        </div>
+            <!-- Age - number -->
+            <div>
+              <label for="age">Age</label>
+              <input type="number" name="age" id="age" min="18" max="120" />
+            </div>
 
-        <!-- phone -->
+            <!-- Email - email -->
 
-        <div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
 
-            <label for="phone">Phone</label>
-            <input type="text" name="phone" id="phone" placeholder="(###) ###-####" />
-        </div>
+            <!-- phone -->
 
-        <!-- Start Date - date -->
-         <div>
-            <label for="start-date">When do you want to start</label>
-            <input type="date" id="start-date" name="startDate" required />
-         </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input type="text" name="phone" id="phone" placeholder="(###) ###-####" />
+            </div>
 
+            <!-- Start Date - date -->
+            <div>
+              <label for="start-date">When do you want to start</label>
+              <input type="date" id="start-date" name="startDate" required />
+            </div>
 
-         <!-- Tshirt - Select field -->
+            <!-- Tshirt - Select field -->
 
-         <div> 
-            <label for="t-shirt">T-shirt Size</label>
-            <select id="t-shirt" required>
+            <div>
+              <label for="t-shirt">T-shirt Size</label>
+              <select id="t-shirt" required>
                 <option value="">Select T-shirt size</option>
                 <option value="XXS">XXS</option>
                 <option value="XS">XS</option>
@@ -84,20 +81,20 @@
                 <option value="XL">XL</option>
                 <option value="XXL">XXL</option>
                 <option value="CUSTOM">CUSTOM</option>
-            </select>
-            <input type="text" name="custom" placeholder="Pleae input a custom size" disabled />
-        </div>
+              </select>
+              <input type="text" name="custom" placeholder="Pleae input a custom size" disabled />
+            </div>
 
-        <!-- Tshirt Color - color -->
-         <div>
-            <label for="color">Tshirt Color</label>
-            <input type="color" name="color" id="color" />
-         </div>
-          <!-- submit button -->
-           <div> 
-            <input type="submit" name="submit" value=" Volunteer Now" class="submit"/>
-           </div>
-         </div>
+            <!-- Tshirt Color - color -->
+            <div>
+              <label for="color">Tshirt Color</label>
+              <input type="color" name="color" id="color" />
+            </div>
+            <!-- submit button -->
+            <div>
+              <input type="submit" name="submit" value=" Volunteer Now" class="submit" />
+            </div>
+          </div>
         </form>
       </div>
       <!-- End Form-->
@@ -131,7 +128,7 @@
       <script src="components/js/footer.js"></script>
 
       <!-- local js file for form -->
-       <script src="/JS/form.js"></script>
+      <script src="/JS/form.js"></script>
     </section>
   </body>
 </html>
